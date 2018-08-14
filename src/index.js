@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', function (req, res) {
 
-	res.send('LOOK MA I CAN DO DEVOPS TOO!!! on' + os.hostname())
+	res.send('LOOK MA I CAN DO DEVOPS TOO!!! JUST NOT VERY WELL on' + os.hostname())
 
 })
 
