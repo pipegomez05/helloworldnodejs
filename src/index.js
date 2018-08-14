@@ -3,7 +3,7 @@ const os = require('os')
 const app = express()
 
 app.get('/', function (req, res) {
-	res.send('Hello World from tester3 on' + os.hostname())
+	res.send('LOOK MA i can do devops too!' + os.hostname())
 })
 
 app.get('/healthcheck', function (req, res) {
