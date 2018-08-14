@@ -3,7 +3,7 @@ const os = require('os')
 const app = express()
 
 app.get('/', function (req, res) {
-	res.send('Hello World from tester5 on' + os.hostname())
+	res.send('Hello World from tester6 on' + os.hostname())
 })
 
 app.get('/healthcheck', function (req, res) {
